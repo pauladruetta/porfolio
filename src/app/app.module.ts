@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
 import { SocialNavComponent } from './components/header/social-nav/social-nav.component';
 import { LoginComponent } from './components/header/login/login.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './components/header/login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
