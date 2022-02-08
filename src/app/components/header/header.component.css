@@ -1,0 +1,6 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(29, 27, 27);
+  color: whitesmoke;
+}
