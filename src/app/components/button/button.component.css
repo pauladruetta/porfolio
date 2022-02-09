@@ -1,5 +1,12 @@
 button {
-  padding: 2px;
-  margin: 2px;
-  cursor: pointer;
+  font-size: .875rem !important;
+}
+
+button:hover {
+  background-color: white !important ;
+  color: black  !important;
+}
+
+button:focus {
+  box-shadow: none;
 }

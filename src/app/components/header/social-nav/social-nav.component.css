@@ -1,18 +1,3 @@
-nav {
-  align-items: center;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-li {
-  padding: 2px 5px;
-  cursor: pointer;
-}
-
 a, a:active, a:focus, a:visited {
   color: inherit;
 }
