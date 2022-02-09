@@ -8,3 +8,19 @@
 li {
   list-style: none;
 }
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  flex: 2 2 0;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.row-center {
+  align-items: center;
+}

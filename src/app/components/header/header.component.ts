@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Porfolio } from '../porfolio';
 
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',

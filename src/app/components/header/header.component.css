@@ -4,4 +4,10 @@ header {
   background-color: rgb(29, 27, 27);
   color: whitesmoke;
   padding: 5px;
+  font-size: 1rem !important;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.25rem !important;
 }

@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  styleObject:object = {'background-color': 'black',
+    'font-size': '20px',
+    'font-weight': 'bold',
+    'color':'whitesmoke',
+    'border-style': 'ridge' }
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onLogging(){
+    console.log('Click in login')
   }
 
 }

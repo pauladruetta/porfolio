@@ -1,3 +1,7 @@
+nav {
+  align-items: center;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -5,5 +9,10 @@ ul {
 }
 
 li {
-  padding: 0 5px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+a, a:active, a:focus, a:visited {
+  color: inherit;
 }
