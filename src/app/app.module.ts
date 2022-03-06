@@ -10,6 +10,16 @@ import { SocialNavComponent } from './components/header/social-nav/social-nav.co
 import { LoginComponent } from './components/header/login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ButtonComponent } from './components/button/button.component';
+import { SocialNavBootsComponent } from './components/social-nav-boots/social-nav-boots.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { EditarComponent } from './pages/editar/editar.component';
+import { ProyectosComponent } from './pages/proyectos/proyectos.component';
+import { ExperienciasComponent } from './pages/experiencias/experiencias.component';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { NoExisteComponent } from './pages/no-existe/no-existe.component';
+import { PortadaComponent } from './components/portada/portada.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +29,17 @@ import { ButtonComponent } from './components/button/button.component';
     MainComponent,
     SocialNavComponent,
     LoginComponent,
-    ButtonComponent
+    ButtonComponent,
+    SocialNavBootsComponent,
+    InicioComponent,
+    EditarComponent,
+    ProyectosComponent,
+    ExperienciasComponent,
+    RegistroComponent,
+    NoExisteComponent,
+    PortadaComponent,
+    NavbarComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,15 @@
 a, a:active, a:focus, a:visited {
   color: inherit;
 }
+
+@media screen and (max-width: 360px) {
+  nav {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  fa-icon {
+    font-size: 1.5rem !important;
+  }
+}

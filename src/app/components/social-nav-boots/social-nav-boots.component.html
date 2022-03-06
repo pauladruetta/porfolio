@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-black">
+  <div class="container-fluid h-100">
+    <div class="col align-self-start ps-0 h-100">
+      <a
+        class="navbar-brand nav-link active p-0 m-0 h-100 "
+        [routerLink]="['/']"
+      >
+        <img class="img-fluid h-100" src="assets\APLogoJusto.png" alt="LogoAp">
+      </a>
+    </div>
+
+    <button
+      class="navbar-toggler btn-sm"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="col collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLink]="['/proyectos']"
+          >
+            Proyectos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLink]="['/experiencia']"
+          >
+            Experiencia
+          </a>
+        </li>
+      </ul>
+    </div>
+    <app-login class="d-flex"></app-login>
+  </div>
+</nav>
